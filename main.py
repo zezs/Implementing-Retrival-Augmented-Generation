@@ -17,8 +17,20 @@ if __name__=="__main__":
     embeddings = OpenAIEmbeddings()
     llm = ChatOpenAI()
 
-    query = "What is Photosyntesis?" # prompt includes query or query+context(in RAG) 
-    prompt = PromptTemplate.from_template(template=query)
-    chain = prompt | llm
-    result = chain.invoke(input={})
-    print(result.content)
+    query = "What is Pinecone in machine learning?" # prompt includes query or query+context(in RAG) 
+
+    # Initializes a vector store with Pinecone, using a specific index name and embedding method.
+    vectorstore = PineconeVectorStore( index_name=os.environ["INDEX_NAME"], embedding=embeddings)
+
+    # Retrieves a pre-defined prompt template for retrieval-based question-answering.
+    retrieval_qa_chat_prompt = hub.pull("langchain-ai/retrieval-qa-chat")
+
+    # Creates a chain to combine retrieved documents from vectorDB using the language model and the prompt.
+    combine_docs_chain = create_stuff_documents_chain(llm, retrieval_qa_chat_prompt)
+
+    # Sets up a retrieval chain that uses the vector store for retrieving and combines results with the documents chain.
+    retrival_chain = create_retrieval_chain(retriever=vectorstore.as_retriever(), combine_docs_chain=combine_docs_chain)
+
+    result = retrival_chain.invoke(input={"input": query})
+    print(result)
+    
