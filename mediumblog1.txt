@@ -2,11 +2,7 @@
 Search
 Write
 
-Azenabeel
-Be part of a better internet.
-
-Get 20% off membership for a limited time
-
+Emarco
 Vector Database: What is it and why you should know it?
 Ejiro Onose
 Ejiro Onose
@@ -17,7 +13,7 @@ Follow
 9 min read
 ·
 Dec 22, 2023
-102
+100
 
 
 
@@ -200,7 +196,7 @@ Vector Database
 Llm
 Embedding
 Vector
-102
+100
 
 
 
@@ -208,7 +204,7 @@ Vector
 
 Ejiro Onose
 Written by Ejiro Onose
-118 Followers
+115 Followers
 Still working on this....
 
 Follow
@@ -224,9 +220,13 @@ Ambassador Labs
 
 Microservice Orchestration Best Practices
 In this article, you’ll discover nine microservice orchestration best practices, the importance of orchestration, and more …
+8 min read
+·
 May 3, 2023
-369
+368
+
 3
+
 
 
 LLMs on Trial: Understanding LLM Evaluation Benchmarks
@@ -239,23 +239,30 @@ Artificial Intelligence in Plain English
 
 LLMs on Trial: Understanding LLM Evaluation Benchmarks
 LLM evaluation benchmarks provide a more comprehensive way of testing LLMs on various tasks, allowing us to get a better understanding of…
-Feb 14
-82
+11 min read
+·
+Feb 14, 2024
+85
+
 1
 
 
-Hallucination in Large Language Models
+
+Using Knative and Ambassador Edge Stack to Handle Traffic
 Ejiro Onose
 Ejiro Onose
 
 in
 
-Artificial Intelligence in Plain English
+Ambassador Labs
 
-Hallucination in Large Language Models
-Early this year(2023), an incident sent shockwaves through the legal community. A lawyer used ChatGPT to prepare a crucial case brief. To…
-Dec 8, 2023
-50
+Using Knative and Ambassador Edge Stack to Handle Traffic
+While Kubernetes is an impressive container orchestration and management tool, it can be quite complex to use and doesn’t quite cut it when…
+7 min read
+·
+Aug 31, 2022
+253
+
 
 
 Ambassador Edge Stack vs Traefik vs NGINX
@@ -268,38 +275,41 @@ Ambassador Labs
 
 Ambassador Edge Stack vs Traefik vs NGINX
 Ambassador Edge Stack, Traefik, and NGINX are popular tools for implementing an API gateway and load balancer in a Kubernetes environment.
+7 min read
+·
 Jan 26, 2023
 273
 
 
+
 See all from Ejiro Onose
 Recommended from Medium
-All You Need to Know about Vector Databases and How to Use Them to Augment Your LLM Apps
-Dominik Polzer
-Dominik Polzer
+Comparing RAG Part 2: Vector Stores; FAISS vs Chroma
+Stepkurniawan
+Stepkurniawan
 
-in
-
-Towards Data Science
-
-All You Need to Know about Vector Databases and How to Use Them to Augment Your LLM Apps
-A Step-by-Step Guide to Discover and Harness the Power of Vector Databases
-
-Sep 18, 2023
-1.7K
-12
+Comparing RAG Part 2: Vector Stores; FAISS vs Chroma
+In this study, we examine the impact of two vector stores, FAISS (https://faiss.ai) and Chroma, on the retrieved context to assess their…
+4 min read
+·
+Jan 1, 2024
+29
 
 
-Building LLM Applications: Advanced RAG (Part 10)
-Vipra Singh
-Vipra Singh
 
-Building LLM Applications: Advanced RAG (Part 10)
-Learn Large Language Models ( LLM ) through the lens of a Retrieval Augmented Generation ( RAG ) Application.
+Comparing Vector Databases
+Adam Blum
+Adam Blum
 
-Apr 28
-495
-4
+Comparing Vector Databases
+If you are a developer interested in AI, there is a good chance that you may have started working with Large Language Models such as…
+10 min read
+·
+Nov 9, 2023
+211
+
+7
+
 
 
 Lists
@@ -307,73 +317,74 @@ Lists
 
 
 Natural Language Processing
-1592 stories
+1380 stories
 ·
-1137 saves
+873 saves
 
 
 
 ChatGPT prompts
-48 stories
+47 stories
 ·
-1808 saves
-Vector Databases and Vector Libraries (Part 4 of RAG Series)
-Chandan Durgia
-Chandan Durgia
+1439 saves
+Sparse embedding or BM25?
+InfiniFlow
+InfiniFlow
+
+Sparse embedding or BM25?
+Since the open-sourcing of Infinity, it has received a wide positive response from the community. Regarding the essential RAG technology we…
+7 min read
+·
+Feb 13, 2024
+16
+
+
+
+Experimenting with Vector Databases: Chromadb, Pinecone, Weaviate and Pgvector
+Vishnu Sivan
+Vishnu Sivan
 
 in
 
-An Idea (by Ingenious Piece)
+CoinsBench
 
-Vector Databases and Vector Libraries (Part 4 of RAG Series)
-Storing Embeddings in an efficient manner
+Experimenting with Vector Databases: Chromadb, Pinecone, Weaviate and Pgvector
+Vector databases are specialized systems designed for storing, managing, and searching embedding vectors. The widespread adoption of…
+10 min read
+·
+Nov 14, 2023
+164
 
-Feb 8
-160
 1
 
 
-Advanced RAG Retrieval Strategies Using Knowledge Graphs
-zhaozhiming
-zhaozhiming
 
-in
+🚀 Blazing Fast Text Embeddings Inference for your RAG
+David Min
+David Min
 
-Generative AI
+🚀 Blazing Fast Text Embeddings Inference for your RAG
+Hugging Face — Text Embeddings Inference (TEI)
+6 min read
+·
+Oct 21, 2023
+94
 
-Advanced RAG Retrieval Strategies Using Knowledge Graphs
-An introduction to improving RAG retrieval strategies with knowledge graphs
-
-Jul 12
-488
-1
-
-
-Here’s how I tested Vector Embeddings using ChromaDB!
-Woyera
-Woyera
-
-Here’s how I tested Vector Embeddings using ChromaDB!
-Behind the scenes, vector embeddings and vector database provide the backbone of AI as we know it. A vector database is a specialized type…
-
-Jun 6
-35
-1
+2
 
 
-Embedding: Types, Use cases and Evaluation (Part 3 of RAG Series)
-Chandan Durgia
-Chandan Durgia
 
-in
+Vector Database — Introduction and Python Implementation
+Denaya
+Denaya
 
-An Idea (by Ingenious Piece)
+Vector Database — Introduction and Python Implementation
+Have you heard about vector databases? They’re everywhere these days, and it’s not just tech enthusiasts buzzing about them. But why the…
+7 min read
+·
+Jan 17, 2024
+89
 
-Embedding: Types, Use cases and Evaluation (Part 3 of RAG Series)
-Making computers understand Text
-
-Feb 2
-101
 
 
 See more recommendations
@@ -384,8 +395,6 @@ Status
 About
 
 Careers
-
-Press
 
 Blog
 
