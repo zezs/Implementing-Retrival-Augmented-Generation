@@ -7,6 +7,9 @@ Load -> split -> Embedd -> store in vectoreBD
 - Embed the chunks and get vectors- (OpenAIEmbeddings)
 - Store the embeddings in Pinecone vectorstore (PineconeVectorStore)
 
+![alt text](RAG steps.png)
+![alt text](vector space.png)
+
 ## Why are TextLoaders needed ?
 - LLMs take text as input 
 - But what if we want to process text from wahtsappp message, gogole drive, notion notebook, any pdf online etc...
@@ -24,3 +27,6 @@ source: Langchain official docs
 ## Embeddings
 
 sentences(text) ---->  [encoder/ embedding model] ----> O O O O O (vector spaces)
+
+
+
