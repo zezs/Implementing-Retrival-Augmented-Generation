@@ -1,5 +1,7 @@
 ## Overview
 
+
+
 ![alt text](image.png)
 Load -> split -> Embedd -> store in vectoreBD
 - Loading the medium blog- (TextLoader)
@@ -7,8 +9,10 @@ Load -> split -> Embedd -> store in vectoreBD
 - Embed the chunks and get vectors- (OpenAIEmbeddings)
 - Store the embeddings in Pinecone vectorstore (PineconeVectorStore)
 
-![alt text](RAG steps.png)
-![alt text](vector space.png)
+
+![RAG steps](https://github.com/user-attachments/assets/3b972ad9-38c5-4761-a845-8ecde675a2f7)
+Sorce: AUTHOR
+
 
 ## Why are TextLoaders needed ?
 - LLMs take text as input 
@@ -25,8 +29,12 @@ Description: some of doc loaders provided by Langchain (source: Langchain offici
 source: Langchain official docs
 
 ## Embeddings
-
 sentences(text) ---->  [encoder/ embedding model] ----> O O O O O (vector spaces)
+
+###This is what embeddings in vector space looks like
+![image](https://github.com/user-attachments/assets/3c0d4c53-8b1b-436c-90b9-ef3ef091e685)
+
+
 
 
 
