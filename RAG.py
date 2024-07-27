@@ -1,6 +1,7 @@
+# LCEL: Langchain embedding library
 import os
-
 from dotenv import load_dotenv
+
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_pinecone import PineconeVectorStore
