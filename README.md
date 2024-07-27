@@ -32,16 +32,19 @@ source: Langchain official docs
 sentences(text) ---->  [encoder/ embedding model] ----> O O O O O (vector spaces)
 
 ### This is what embeddings in vector space looks like
+
+![image](https://github.com/user-attachments/assets/3c0d4c53-8b1b-436c-90b9-ef3ef091e685)
+
 - If the emneddings are placed closer that means they have similar sematic meaning and are related to each other
 - The red cluster is the query which is convertedd to text embedding(from text format)
 - The red cluster is then placed in vector space
-- The cluster near the red cluster(question) could have the answer to teh query
+- The vector near the red vector(question) could have the answer to the query
 - Then the relevant vector are calculated using cosine/ euclidean formula
-- Shorter the distance more relevant the info
-- Finally, the relevant vecotrs with significant seamtic are converted into text(context) 
+- Shorter the distance more relevant the info to the question
+- Finally, the relevant vecotrs with significant semantic meaning are converted into text(context) 
 -  text spilt into chunks and augmented into prompt
--  BEFORE RETRIVAL: PROMPT -> Query  |  AFTER RETRIVAL: PROMPT -> Query + Context(chunks)
-![image](https://github.com/user-attachments/assets/3c0d4c53-8b1b-436c-90b9-ef3ef091e685)
+-  BEFORE RETRIVAL: PROMPT -> Query
+-  AFTER RETRIVAL: PROMPT -> Query + Context(chunks)
 
 
 
