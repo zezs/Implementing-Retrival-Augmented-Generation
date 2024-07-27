@@ -31,8 +31,8 @@ source: Langchain official docs
 ## Embeddings
 sentences(text) ---->  [encoder/ embedding model] ----> O O O O O (vector spaces)
 
-### - This is what embeddings in vector space looks like
-### - vector spaces can be visualized in 2D or 3D for simplicity, Pinecone primarily operates in high-dimensional spaces to effectively handle the complexities of modern machine learning data.
+### This is what embeddings in vector space looks like
+vector spaces can be visualized in 2D or 3D for simplicity, Pinecone primarily operates in high-dimensional spaces to effectively handle the complexities of modern machine learning data.
 ![image](https://github.com/user-attachments/assets/3c0d4c53-8b1b-436c-90b9-ef3ef091e685)
 
 SOURCE: AUTHOR
