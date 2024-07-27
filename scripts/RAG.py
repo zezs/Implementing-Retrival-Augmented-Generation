@@ -30,11 +30,11 @@ if __name__=="__main__":
     # chain to combine retrieved documents from vectorDB using the language model and the prompt.
     combine_docs_chain = create_stuff_documents_chain(llm, retrieval_qa_chat_prompt)
 
-
     """
     - The retrival_chain uses vectorstore.as_retriever() to find documents related to the query in the Pinecone vector store.
     - The retrieved documents are passed to combine_docs_chain, which uses the language model and the retrieval_qa_chat_prompt to process and combine the documents into a coherent response.
     """
+    
     # Sets up a retrieval chain that uses the vector store for retrieving and combines results with the documents chain.
     retrival_chain = create_retrieval_chain(retriever=vectorstore.as_retriever(), combine_docs_chain=combine_docs_chain)
 

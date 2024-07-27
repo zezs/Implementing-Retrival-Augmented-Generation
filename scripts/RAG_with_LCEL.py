@@ -23,7 +23,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 load_dotenv()
 
-def format_docs(docs):
+def format_docs(docs) -> str:
     return "\n\n".join(doc.page_content for doc in docs)
 
 
@@ -37,9 +37,9 @@ if __name__=="__main__":
     query = "What is Pinecone?" # prompt includes query or query+context(in RAG) 
     template = """
     Use the following pieces of context to asnwer the question at the end,
-    If you don't know the asnwer, just say that you dont know, don't try to make up an answer.
+    If you don't know the answer, just say that you dont know, don't try to make up an answer.
     Keep the answer simple in max 4 lines.
-    At the end of answer, Always give out a different Swami Vivekananda quote everytime
+    At the end of answer, Always give out a inspirational quote everytime
 
     {context}
 
@@ -52,8 +52,8 @@ if __name__=="__main__":
     - In the key of question we have a runnbalepassthrough object, when we invoke this chain and we will pass in as aurgument in key of question
     - the question value will remain unchanged, it will propogate to LLM as is
     - In question key: we have original input question
-    - we retrieve the relevant info to asnwer the question
-    - format docs: user-defined func to format docs 
+    - we retrieve the relevant info to answer to the question
+    - format docs: user-defined func to format docs retruns string
     """
     rag_chain = (
                 {"context":vectorstore.as_retriever() | format_docs, "question": RunnablePassthrough()}
@@ -62,6 +62,10 @@ if __name__=="__main__":
     )
     
     res = rag_chain.invoke(query)
-    print(res)
-    print("***************")
+
     print(res.content)
+
+
+    """
+    - RunnablePassthrough: This is a component from the langchain_core.runnables module. As the name suggests, it acts as a "pass-through" mechanism. When a value is passed into it, the value remains unchanged and is passed to the next stage in the chain.
+    """
