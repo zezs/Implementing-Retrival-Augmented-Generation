@@ -31,7 +31,7 @@ source: Langchain official docs
 ## Embeddings
 sentences(text) ---->  [encoder/ embedding model] ----> O O O O O (vector spaces)
 
-###This is what embeddings in vector space looks like
+### This is what embeddings in vector space looks like
 ![image](https://github.com/user-attachments/assets/3c0d4c53-8b1b-436c-90b9-ef3ef091e685)
 
 
