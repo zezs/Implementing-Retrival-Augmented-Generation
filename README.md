@@ -11,7 +11,7 @@ Load -> split -> Embedd -> store in vectoreBD
 
 
 ![RAG steps](https://github.com/user-attachments/assets/3b972ad9-38c5-4761-a845-8ecde675a2f7)
-Sorce: AUTHOR
+Source: AUTHOR
 
 
 ## Why are TextLoaders needed ?
