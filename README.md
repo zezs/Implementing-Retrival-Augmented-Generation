@@ -49,6 +49,10 @@ SOURCE: AUTHOR
 -  BEFORE RETRIVAL: PROMPT -> Query
 -  AFTER RETRIVAL: PROMPT -> Query + Context(chunks)
 
+UNDERSTNDINGG WORKFLOW AND VIEWING LOGS
+![image](https://github.com/user-attachments/assets/31896887-95f6-4ac3-8832-5afccc6f3af4)
+
+
 
 
 
